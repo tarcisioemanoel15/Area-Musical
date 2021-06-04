@@ -1,0 +1,192 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background: rgb(251, 250, 252);
+}
+li{list-style: none;}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    color: blanchedalmond;
+}
+nav li{
+    display: inline-table;
+}
+    
+h1{
+    font-size: 50px;
+}
+.indiceul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Editar comercial 1 ainda não editado*/
+
+
+.cromatica{
+    background: rgb(186, 169, 202);
+    font-size: 35px;
+}
+
+.cifrasecordas{
+    background: blueviolet;
+}
+.cicor{
+    
+    display: flex ;
+    justify-content: space-around;
+}
+
+.comercial0{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.comercial{
+    background: black;
+}
+.comercial0 img{
+    width: 400px;
+}
+.campoHarmonico{
+    text-align: -webkit-center;
+    background: black;
+    color: cyan;
+}
+.campoHarmonico h6{
+    margin: 40px;;
+    text-align: center;
+    font-size: 45px;
+}
+table{
+    text-align: center;
+}
+td{
+    width: 100px;
+}
+
+footer{
+    background: yellow;
+}
+/**/
+footer{
+    background: rgb(255, 255, 255);
+    margin: 50px auto;
+  }
+  .cent{
+    display: flex;
+    justify-content: center;
+    background:greenyellow;
+  }
+  .red{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin: 20px;
+    transition: all 0.5s ease-out; /* efeito de animaÃ§ÃĢo*/
+    /*border-radius: 50%;  */
+  }
+  .icon{
+      margin: 0px auto;
+      padding: 35px;
+      width: 80px;
+  }
+      
+  /* Para dar movimento aos icones*/
+  .red:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+    /*box-shadow: 4px 30px 16px 0px rgba(50,50,50, 0.45); */
+  }
+  
+  .voltar{
+    display: flex;
+    justify-content:center;
+    color: #022f14;
+  }   
+  .header #rel{
+    color:aliceblue
+  }
+
+
+
+@media screen and (max-width: 880px){
+    body{
+        background: yellow;
+    }
+.cromatica{
+    font-size: 30px;
+}
+.tacordes img{
+    width: 600px;
+    height: 800px;
+}    
+
+.comercial0 img{
+    width: 200px;
+}
+
+
+.red{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    }
+  .icon{
+      margin: 0px auto;
+      padding: 15px;
+      width: 50px;
+  }
+}
+  
+@media screen and (max-width: 618px) {
+    body{
+        background: rgb(247, 25, 117);
+    }
+    .cromatica{
+        font-size: 20px;
+    }
+
+       
+    .comercial0 img{
+        width: 100px;
+    }
+
+    .esp .penta img{
+        width: 250px;
+    }
+    .tacordes img{
+        width: 280px;
+        height: 550px;
+    }
+    .red{
+        width: 50px;
+        height: 50px;
+        margin: 1px;
+    }
+    .icon{
+        margin: 0px auto;
+        padding: 15px;
+        width: 25px;
+    }
+    .campoHarmonico dl{
+        width: 5px;
+    }
+    .cicor{
+        font-size: 20px;
+    }
+
+  .cifrasecordas{
+      font-size: 10px;
+  }        
+}
+        
+    
+
+        
+      
+
+
