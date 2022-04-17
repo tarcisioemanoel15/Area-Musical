@@ -1,7 +1,35 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Elsie';
+    src: url('/fontes/Elsie/Elsie-Black.ttf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Irish';
+    src: url('/fontes/Irish_Grover/IrishGrover-Regular.ttf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'MsMadi';
+    src: url('/fontes/Ms_Madi/MsMadi-Regular.ttf') format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --fonte0: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte1: 'Elsie';
+    --fonte2: 'Irish';
+    --fonte3: 'MsMadi', cursive;
+}
+
 body {
     margin: 0px;
     padding: 0px;
     text-align: center;
+    font-family: var(--fonte1), var(--fonte0);
     background: rgb(251, 250, 252);
 }
 
@@ -21,6 +49,7 @@ nav li {
 }
 
 h1 {
+    font-family: var(--fonte2);
     font-size: 50px;
 }
 
