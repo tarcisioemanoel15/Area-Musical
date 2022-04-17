@@ -46,6 +46,7 @@ nav {
 
 nav li {
     display: inline-table;
+    padding: 10px;
 }
 
 h1 {
