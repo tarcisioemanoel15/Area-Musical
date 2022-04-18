@@ -216,3 +216,131 @@ footer {
         font-size: 10px;
     }
 }
+
+
+
+/*
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+*/
+
+@font-face {
+    font-family: 'Elsie';
+    src: url('/Style/fontes/Elsie/Elsie-Black.ttf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Irish';
+    src: url('/Style/fontes/Irish_Grover/IrishGrover-Regular.ttf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'MsMadi';
+    src: url('/Style/fontes/Ms_Madi/MsMadi-Regular.ttf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Sail';
+    src: url('/Style/fontes/Sail/Sail-Regular.ttf') format('opentype');
+    font-weight: normal;
+}
+
+
+:root {
+
+    --fonte0: Verdana, Geneva, Tahoma, sans-serif;
+
+    --fonte1: 'Elsie', cursive;
+    --fonte2: 'Irish', cursive;
+    --fonte3: 'MsMadi', cursive;
+    --fonte4: 'Sail', cursive;
+
+}
+
+body {
+    font-family: var(--fonte1), var(--fonte0);
+}
+
+nav li>a>button {
+    font-family: var(--fonte1);
+}
+
+nav,
+ul>li>a {
+    color: rgb(5, 5, 51);
+    text-decoration: none;
+}
+
+
+
+h1 {
+    font-family: var(--fonte4);
+}
+
+h4 {
+    font-family: var(--fonte1);
+    font-size: 30px;
+    padding: 10px;
+}
+
+.indiceul li {
+    font-family: var(--fonte2);
+}
+
+.indiceul li>a {
+    color: rgb(3, 41, 41);
+}
+
+.indiceul li>a:hover {
+    color: yellow;
+    text-shadow: 0px 0px 5px black;
+}
+
+
+.cromatica {
+    font-family: var(--fonte4);
+}
+
+.cifrasecordas {
+    background-color: rgb(127, 68, 34);
+    background-image: url('/IMG/NovasIMG/00/500px/1000pxpor600px.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    font-family: var(--fonte2);
+}
+
+.campoHarmonico {
+    font-family: var(--fonte2);
+}
+
+.tacordes {
+    background-color: #000000;
+    background-image: url('/IMG/NovasIMG/00/500px/largura1000px.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.tacordes>img {
+    background-color: rgba(255, 255, 255, 0.699);
+    box-shadow: inset 5px 5px 10px 0px black;
+}
