@@ -2,19 +2,19 @@
 
 @font-face {
     font-family: 'Elsie';
-    src: url('./src/fontes/Elsie/Elsie-Black.ttf') format('opentype');
+    src: url('/src/fontes/Elsie/Elsie-Black.ttf') format('opentype');
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'Irish';
-    src: url('./src/fontes/Irish_Grover/IrishGrover-Regular.ttf') format('opentype');
+    src: url('/src/fontes/Irish_Grover/IrishGrover-Regular.ttf') format('opentype');
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'MsMadi';
-    src: url('./src/fontes/Ms_Madi/MsMadi-Regular.ttf') format('opentype');
+    src: url('/src/fontes/Ms_Madi/MsMadi-Regular.ttf') format('opentype');
     font-weight: normal;
 }
 
