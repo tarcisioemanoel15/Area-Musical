@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+/*Não deu certo
 @font-face {
     font-family: 'Elsie';
     src: url('/src/fontes/Elsie/Elsie-Black.ttf') format('opentype');
@@ -17,10 +20,11 @@
     src: url('/src/fontes/Ms_Madi/MsMadi-Regular.ttf') format('opentype');
     font-weight: normal;
 }
+*/
 
 :root {
     --fonte0: Verdana, Geneva, Tahoma, sans-serif;
-    --fonte1: 'Elsie';
+    --fonte1: 'Henny Penny', cursive;
     --fonte2: 'Irish';
     --fonte3: 'MsMadi', cursive;
 }
@@ -91,7 +95,7 @@ h5 {
 
 section.cifrasecordas {
     background: blueviolet;
-    background-image: url('/IMG/NovasIMG/00/500px/1000pxpor600px.jpg');
+    background-image: url('/src/IMG/NovasIMG/00/500px/1000pxpor600px.jpg');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
