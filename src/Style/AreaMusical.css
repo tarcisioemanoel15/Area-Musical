@@ -1,8 +1,15 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Elsie&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital@1&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&display=swap');
+
 
 /*Não deu certo
 @font-face {
@@ -26,10 +33,12 @@
 
 :root {
     --fonte0: Verdana, Geneva, Tahoma, sans-serif;
-    --fonte1: 'Elsie Swash Caps', cursive;
 
+    --fonte1: 'Elsie', cursive;
     --fonte2: 'Irish Grover', cursive;
-    --fonte3: 'MsMadi', cursive;
+    --fonte3: 'Archivo Narrow', sans-serif;
+    --fonte4: 'My Soul', cursive;
+
 }
 
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
@@ -47,6 +56,7 @@ body {
 
 li {
     list-style: none;
+    font-family: var(--fonte3);
 }
 
 nav {
@@ -69,8 +79,9 @@ h1 {
 .indiceul {
     display: flex;
     justify-content: space-evenly;
-    font-family: var(--fonte1s);
+    font-family: var(--fonte1);
 }
+
 
 section.indiceul a {
     text-decoration: none;
@@ -108,7 +119,7 @@ section.cifrasecordas {
 /*nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn*/
 .tacordes {
     background-color: #000000;
-    background-image: url('/IMG/NovasIMG/00/500px/largura1000px.jpg');
+    background-image: url('/src/IMG/NovasIMG/00/500px/largura1000px.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -132,6 +143,12 @@ section.cifrasecordas {
 
     display: flex;
     justify-content: space-around;
+    font-family: var(--fonte2);
+}
+
+.cicor li {
+    font-family: var(--fonte2);
+
 }
 
 .comercial0 {
@@ -152,11 +169,12 @@ section.cifrasecordas {
     text-align: -webkit-center;
     background: black;
     color: cyan;
+    font-family: var(--fonte1);
 }
 
 .campoHarmonico h6 {
     margin: 40px;
-    ;
+
     text-align: center;
     font-size: 45px;
 }
