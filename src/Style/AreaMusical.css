@@ -10,6 +10,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=My+Soul&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 
 /*Não deu certo
 @font-face {
@@ -38,6 +40,7 @@
     --fonte2: 'Irish Grover', cursive;
     --fonte3: 'Archivo Narrow', sans-serif;
     --fonte4: 'My Soul', cursive;
+    --fonte5: 'Pacifico', cursive;
 
 }
 
@@ -56,7 +59,7 @@ body {
 
 li {
     list-style: none;
-    font-family: var(--fonte3);
+    font-family: var(--fonte5);
 }
 
 nav {
@@ -147,7 +150,7 @@ section.cifrasecordas {
 }
 
 .cicor li {
-    font-family: var(--fonte2);
+    font-family: var(--fonte5);
 
 }
 
