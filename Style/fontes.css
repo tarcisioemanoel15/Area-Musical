@@ -38,6 +38,11 @@ body {
   font-family: var(--fonte1), var(--fonte0);
 }
 
+nav>a>img {
+  border-radius: 50%;
+  padding: 10px;
+}
+
 nav li>a>button {
   font-family: var(--fonte1);
 }
