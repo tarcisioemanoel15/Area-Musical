@@ -1,7 +1,9 @@
 @charset "UTF-8";
 
-
 @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
 /*Não deu certo
 @font-face {
     font-family: 'Elsie';
@@ -24,8 +26,9 @@
 
 :root {
     --fonte0: Verdana, Geneva, Tahoma, sans-serif;
-    --fonte1: 'Henny Penny', cursive;
-    --fonte2: 'Irish';
+    --fonte1: 'Elsie Swash Caps', cursive;
+
+    --fonte2: 'Irish Grover', cursive;
     --fonte3: 'MsMadi', cursive;
 }
 
