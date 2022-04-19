@@ -5,27 +5,9 @@ body {
     background: rgb(251, 250, 252);
 }
 
-/*
-button {
-    background: black;
-    color: red;
-}
-
 li {
     list-style: none;
 }
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    background: black;
-    color: blanchedalmond;
-}
-
-nav li {
-    display: inline-table;
-}
-*/
 
 h1 {
     font-size: 50px;
@@ -168,6 +150,11 @@ footer {
         padding: 15px;
         width: 50px;
     }
+
+    .cicor {
+        color: white;
+
+    }
 }
 
 @media screen and (max-width: 618px) {
@@ -211,25 +198,10 @@ footer {
 
     .cicor {
         font-size: 20px;
+        color: white;
     }
 
     .cifrasecordas {
         font-size: 10px;
     }
 }
-
-
-
-/*
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-*/

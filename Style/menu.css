@@ -1,8 +1,36 @@
+article {
+  background-color: #000000;
+  background-image: url('/IMG/01.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  height: 150px;
+  color: white;
+
+}
+
+article>h1 {
+  padding: 5%;
+  text-shadow: 0px 0px 10px black;
+}
+
+
+
+
+
 ul {
   margin: 0px;
   padding: 0px;
 }
 
+nav ul li>a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li>a:hover {
+  text-shadow: 0px 0px 7px white;
+}
 
 
 #header {
@@ -15,13 +43,6 @@ ul {
   background: #000000;
 }
 
-nav ul li button {
-  background-color: rgb(255, 0, 0);
-}
-
-nav ul li button:hover {
-  box-shadow: 0px 0px 15px rgb(243, 240, 240);
-}
 
 
 #logo {
@@ -60,7 +81,7 @@ nav ul li button:hover {
     display: block;
     position: absolute;
     width: 100%;
-    top: 70px;
+    top: 265px;
     right: 0px;
     background: #e7e7e7;
     transition: 0.6s;
@@ -80,6 +101,11 @@ nav ul li button:hover {
     padding: 1rem 0;
     margin: 0 1rem;
     border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    color: #000000;
+  }
+
+  #menu a:hover {
+    text-shadow: 0px 0px 10px black;
   }
 
   #btn-mobile {

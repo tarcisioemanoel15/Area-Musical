@@ -1,5 +1,6 @@
 const btnMobile = document.getElementById('btn-mobile');
 
+
 function MenuH
   (event) {
   if (event.type === 'touchstart') event.preventDefault();
@@ -14,7 +15,6 @@ function MenuH
   }
 }
 
-btnMobile.addEventListener('click', MenuH
-);
+btnMobile.addEventListener('click', MenuH);
 btnMobile.addEventListener('touchstart', MenuH
 );
