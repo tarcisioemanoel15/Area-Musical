@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 
+@import url('https://fonts.googleapis.com/css2?family=Elsie&display=swap');
+
 :root {
   --font1: 'Pacifico', cursive;
-  --font2: 'Irish', cursive;
+  --font2: 'Elsie', cursive;
 }
 
 h1 {
@@ -11,6 +13,9 @@ h1 {
   color: rgb(255, 8, 0);
 }
 
+p {
+  font-family: var(--font2);
+}
 
 div.pagtop {
   background-color: aqua;
