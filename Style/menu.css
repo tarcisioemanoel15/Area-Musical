@@ -1,4 +1,4 @@
-article {
+.article {
   background-color: #000000;
   background-image: url('/IMG/01.png');
   background-repeat: no-repeat;
@@ -9,7 +9,7 @@ article {
 
 }
 
-article>h1 {
+.article>h1 {
   padding: 5%;
   text-shadow: 0px 0px 10px black;
 }
