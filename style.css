@@ -1,18 +1,8 @@
-@font-face {
-  font-family: 'Elsie';
-  src: url('/fontes/Elsie/Elsie-Black.ttf') format('opentype');
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: 'Elsie';
-  src: url('/fontes/Irish_Grover/IrishGrover-Regular.ttf') format('opentype');
-  font-weight: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 
 :root {
-  --font1: 'Elsie', cursive;
+  --font1: 'Pacifico', cursive;
   --font2: 'Irish', cursive;
 }
 
