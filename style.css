@@ -1,0 +1,10 @@
+div.pagtop {
+  background-color: aqua;
+  background-image: url('./IMG/00.png');
+  background-position: center;
+  background-size: 200px;
+  background-attachment: fixed;
+  width: 200px;
+  height: 200px;
+
+}
