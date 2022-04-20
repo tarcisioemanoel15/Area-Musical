@@ -1,13 +1,24 @@
 @font-face {
   font-family: 'Elsie';
-  src: url('/Style/fontes/Elsie/Elsie-Black.ttf') format('opentype');
+  src: url('/fontes/Elsie/Elsie-Black.ttf') format('opentype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Elsie';
+  src: url('/fontes/Irish_Grover/IrishGrover-Regular.ttf') format('opentype');
   font-weight: normal;
 }
 
 
+:root {
+  --font1: 'Elsie', cursive;
+  --font2: 'Irish', cursive;
+}
+
 h1 {
-  font-family: 'Elsie';
-  ;
+  font-family: var(--font1);
+  color: rgb(255, 8, 0);
 }
 
 
