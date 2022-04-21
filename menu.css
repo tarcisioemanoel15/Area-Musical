@@ -38,7 +38,8 @@ div.fundofixo1 {
 
   background-image: url('/IMG/00-1000px.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 500px 500px;
+
   background-position: center;
   background-attachment: fixed;
 
@@ -53,7 +54,8 @@ div.fundofixo2 {
 
   background-image: url('/IMG/01-largura1000px.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 500px 500px;
+
   background-position: center;
   background-attachment: fixed;
 
@@ -68,8 +70,8 @@ div.fundofixo3 {
 
   background-image: url('/IMG/02.png');
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-size: 500px 500px;
+  background-position: left center;
   background-attachment: fixed;
   font-family: var(--font3);
   color: navy;
