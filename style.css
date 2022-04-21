@@ -22,8 +22,10 @@
   width: 500px;
   height: 500px;
   background: violet;
+  background-attachment: fixed;
 
   background-image: url('/IMG/10A2.png');
+  background-size: 500px 500px;
 
 }
 
