@@ -32,6 +32,11 @@ h1 {
   font-size: 50px;
 }
 
+div.qw {
+  background-image: url('/IMG/01.png');
+  background-size: cover;
+}
+
 div.imagemtop {
   background-color: #000000;
   background-image: url('/IMG/01.png');
