@@ -20,8 +20,8 @@
 div.fundofixo1 {
   height: 250px;
   width: 250px;
-  background-color: aqua;
-  background-image: url('/IMG/IMG-Guitarra/Guitarra-Google/80px/0\ \(1\).jpg');
+  background-color: rgb(38, 0, 255);
+  background-image: url('/IMG/10A5.jpg');
   background-size: 250px 250px;
   background-attachment: fixed;
 
