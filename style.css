@@ -34,9 +34,9 @@ h1 {
 
 div.imagemtop {
   background-color: #000000;
-  background-image: url('/IMG/radio-cassette-g0dbf09511_1280.png');
-  background-repeat: no-repeat;
+  background-image: url('/IMG/01.png');
   background-position: left;
+  /* background-repeat: no-repeat;*/
   background-size: cover;
   height: 150px;
   color: white;
