@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+
+:root {
+  --font0: Verdana, Geneva, Tahoma, sans-serif;
+  --font1: 'Sail', cursive;
+  --font2: 'Elsie', cursive;
+  --font3: 'Sail', cursive;
+  --font4: 'Pacifico', cursive;
+  --font5: 'Rubik Wet Paint', cursive;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  /* background: rgb(251, 250, 252);*/
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+
+div.fundofixo1 {
+  background-color: black;
+
+  background-image: url('/IMG/00-1000px.jpg');
+  background-repeat: no-repeat;
+  background-size: 500px 500px;
+
+  background-position: left center;
+  background-attachment: fixed;
+
+  height: 300px;
+  width: 500px;
+  font-family: var(--font5);
+  color: yellow
+}
+
+div.fundofixo2 {
+  background-color: rgb(82, 67, 67);
+
+  background-image: url('/IMG/01-largura1000px.jpg');
+  background-repeat: no-repeat;
+  background-size: 500px 500px;
+
+  background-position: left center;
+  background-attachment: fixed;
+
+  height: 300px;
+  width: 500px;
+  font-family: var(--font4);
+  color: aqua
+}
+
+div.fundofixo3 {
+  background-color: rgb(184, 12, 12);
+
+  background-image: url('/IMG/02.png');
+  background-repeat: no-repeat;
+  background-size: 500px 500px;
+  background-position: left center;
+  background-attachment: fixed;
+  font-family: var(--font3);
+  color: navy;
+  height: 300px;
+  width: 500px;
+
+}
+
+
+.pagtop {
+  background-color: rgb(12, 184, 84);
+
+  background-image: url('/IMG/10A4.png');
+  background-repeat: no-repeat;
+  background-size: 500px 500px;
+  background-position: left center;
+  background-attachment: fixed;
+  font-family: var(--font3);
+  color: rgb(0, 128, 0);
+  height: 300px;
+  width: 500px;
+
+
+}
