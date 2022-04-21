@@ -15,16 +15,22 @@
   --font3: 'Sail', cursive;
   --font4: 'Pacifico', cursive;
   --font5: 'Rubik Wet Paint', cursive;
-
-
-
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  background: rgb(251, 250, 252);
 }
 
+li {
+  list-style: none;
+}
+
+h1 {
+  font-size: 50px;
+}
 
 div.imagemtop {
   background-color: #000000;
