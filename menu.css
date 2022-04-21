@@ -40,7 +40,7 @@ div.fundofixo1 {
   background-repeat: no-repeat;
   background-size: 500px 500px;
 
-  background-position: center;
+  background-position: left center;
   background-attachment: fixed;
 
   height: 300px;
@@ -56,7 +56,7 @@ div.fundofixo2 {
   background-repeat: no-repeat;
   background-size: 500px 500px;
 
-  background-position: center;
+  background-position: left center;
   background-attachment: fixed;
 
   height: 300px;
