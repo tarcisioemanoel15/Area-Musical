@@ -1,20 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
-
 @import url('https://fonts.googleapis.com/css2?family=Elsie&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+
 :root {
-  --font1: 'Pacifico', cursive;
+  --font0: Verdana, Geneva, Tahoma, sans-serif;
+  --font1: 'Sail', cursive;
   --font2: 'Elsie', cursive;
+  --font3: 'Sail', cursive;
+  --font4: 'Pacifico', cursive;
+  --font5: 'Rubik Wet Paint', cursive;
+
+
+
 }
 
-h1 {
-  font-family: var(--font1);
-  color: rgb(255, 8, 0);
+.h1 {
+  font-family: var(--font1), var(--font0);
 }
 
-p {
+.h2 {
   font-family: var(--font2);
+}
+
+.h3 {
+  font-family: var(--font3);
+}
+
+.h4 {
+  font-family: var(--font4);
+}
+
+.h5 {
+  font-family: var(--font5);
 }
 
 div.pagtop {
