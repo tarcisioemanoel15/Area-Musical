@@ -17,14 +17,18 @@
   --font5: 'Rubik Wet Paint', cursive;
 }
 
-div.fundofixo1 {
-  height: 250px;
-  width: 250px;
-  background-color: rgb(38, 0, 255);
-  background-image: url('/IMG/10A5.jpg');
-  background-size: 250px 250px;
-  background-attachment: fixed;
 
-  font-size: 30px;
-  font-family: var(--font4);
+.fundofixo1 {
+  width: 500px;
+  height: 500px;
+  background: violet;
+
+  background-image: url('/IMG/10A2.png');
+
+}
+
+.fundofixo1>h1 {
+  color: brown;
+  font-family: var(--font5);
+  font-size: 40px;
 }
