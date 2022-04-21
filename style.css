@@ -17,34 +17,14 @@
   --font5: 'Rubik Wet Paint', cursive;
 }
 
-body {
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
-  /* background: rgb(251, 250, 252);*/
-}
-
-li {
-  list-style: none;
-}
-
-h1 {
-  font-size: 50px;
-}
-
-
 div.fundofixo1 {
-  background-color: black;
-
+  height: 250px;
+  width: 250px;
+  background-color: aqua;
   background-image: url('/IMG/10A4.png');
-  background-repeat: no-repeat;
-  background-size: 500px 500px;
-
-  background-position: left center;
+  background-size: 250px 250px;
   background-attachment: fixed;
 
-  height: 300px;
-  width: 500px;
-  font-family: var(--font5);
-  color: yellow
+  font-size: 30px;
+  font-family: var(--font4);
 }
