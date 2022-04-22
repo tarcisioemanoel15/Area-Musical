@@ -110,7 +110,7 @@ h4 {
 /*Imagem do microfone*/
 div.cifrasecordas {
   background-color: rgb(127, 68, 34);
-  background-image: url('/IMG/00-1000px.jpg');
+  background-image: url('./IMG/00-1000px.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -126,7 +126,7 @@ div.cifrasecordas {
 /*Imagem da guitarra*/
 .tacordes {
   background-color: #000000;
-  background-image: url('/IMG/guitar650px.png');
+  background-image: url('./IMG/guitar650px.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
