@@ -24,6 +24,8 @@ div.fundofixo1 {
   background: violet;
 
   background-image: url('./IMG/00-1000px.jpg');
+  background-attachment: fixed;
+
   background-position: left;
 
 }
