@@ -35,3 +35,12 @@ div.fundofixo1>h1 {
   font-family: var(--font5);
   font-size: 40px;
 }
+
+
+div.fundofixo2 {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+
+  background-image: url('./IMG/02.png');
+}
