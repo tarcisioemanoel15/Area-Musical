@@ -108,7 +108,7 @@ h4 {
 }
 
 /*Imagem do microfone*/
-div.cifrasecordas {
+.cifrasecordas {
   background-color: rgb(127, 68, 34);
   background-image: url('./IMG/00-1000px.jpg');
   background-repeat: no-repeat;
