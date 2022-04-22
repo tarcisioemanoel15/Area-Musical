@@ -58,7 +58,6 @@ h4 {
   font-family: var(--font4);
 }
 
-
 .indiceul li {
   font-family: var(--font2);
 }
@@ -72,7 +71,6 @@ h4 {
   color: yellow;
   text-shadow: 0px 0px 5px black;
 }
-
 
 .cromatica {
   font-family: var(--font1);
@@ -112,24 +110,6 @@ h4 {
   box-shadow: inset 5px 5px 10px 0px black;
 }
 
-/*gggggggggggggggggggggggggggggggggggggggggggggggggggg*/
-/*gggggggggggggggggggggggggggggggggggggggggggggggggggg*/
-/*gggggggggggggggggggggggggggggggggggggggggggggggggggg*/
-/*gggggggggggggggggggggggggggggggggggggggggggggggggggg*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .indiceul {
   display: flex;
   justify-content: space-evenly;
@@ -137,16 +117,12 @@ h4 {
 
 /*Editar comercial 1 ainda não editado*/
 
-
 .cromatica {
   background: rgb(186, 169, 202);
   font-size: 35px;
 }
 
-
-
 .cicor {
-
   display: flex;
   justify-content: space-around;
 }
@@ -173,12 +149,12 @@ h4 {
 
 .campoHarmonico h6 {
   margin: 40px;
-  ;
   text-align: center;
   font-size: 45px;
 }
 
 table {
+  font-family: var(--font2);
   text-align: center;
 }
 
@@ -238,10 +214,6 @@ footer {
 
 
 @media screen and (max-width: 880px) {
-  body {
-    background: rgb(247, 247, 245);
-  }
-
   .cromatica {
     font-size: 30px;
   }
@@ -275,10 +247,6 @@ footer {
 }
 
 @media screen and (max-width: 618px) {
-  body {
-    background: rgb(250, 249, 249);
-  }
-
   .cromatica {
     font-size: 20px;
   }
@@ -321,43 +289,4 @@ footer {
   .cifrasecordas {
     font-size: 10px;
   }
-}
-
-
-
-
-
-
-
-
-
-
-/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
-
-div.fundofixo1 {
-
-  height: 500px;
-  background: violet;
-
-  background-image: url('./IMG/00-1000px.jpg');
-  background-attachment: fixed;
-
-  background-position: left;
-
-}
-
-div.fundofixo1>h1 {
-  color: brown;
-  font-family: var(--font5);
-  font-size: 40px;
-}
-
-
-div.fundofixo2 {
-  width: 200px;
-  height: 200px;
-  background-color: aqua;
-
-  background-image: url('./IMG/guitar650px.png');
-  background-size: 200px 200px;
 }
