@@ -19,32 +19,32 @@
 
 /*
 div.fundofixo0 {
-  
   height: 500px;
   background: violet;
-
   background-image: url('./IMG/1000px.png');
   background-attachment: fixed;
-
   background-position: left;
-
 }
-
 */
+
+
+
+
+
 div.fundofixo0 {
-  background-color: #000000;
+  height: 150px;
+  background-color: rgb(236, 5, 5);
   background-image: url('/IMG/01.png');
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
-  height: 150px;
-  color: white;
 
 }
 
 div.fundofixo0>h1 {
   padding: 5%;
   text-shadow: 0px 0px 10px black;
+  color: white;
 }
 
 
@@ -85,6 +85,90 @@ h4 {
   font-size: 30px;
   padding: 10px;
 }
+
+
+
+
+
+/**gggggggggggggggggggggggggggggggggggggggggggggggg*/
+/*gggggggggggggggggggggggggggggggggggggggggggggggggggg*/
+/*gggggggggggggggggggggggggggggggggggggggggggggggggggg*/
+/*gggggggggggggggggggggggggggggggggggggggggggggggggggg*/
+/*gggggggggggggggggggggggggggggggggggggggggggggggggggg*/
+
+
+
+
+
+
+.indiceul li {
+  font-family: var(--fonte2);
+}
+
+.indiceul li>a {
+  color: rgb(3, 41, 41);
+}
+
+.indiceul li>a:hover {
+  color: yellow;
+  text-shadow: 0px 0px 5px black;
+}
+
+
+.cromatica {
+  font-family: var(--fonte4);
+}
+
+/*Imagem do microfone*/
+section.cifrasecordas {
+  background-color: rgb(127, 68, 34);
+  background-image: url('/IMG/00-1000px.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  font-family: var(--fonte2);
+}
+
+.campoHarmonico {
+  font-family: var(--fonte2);
+}
+
+/*Imagem da guitarra*/
+.tacordes {
+  background-color: #000000;
+  background-image: url('/IMG/guitar650px.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.tacordes>img {
+  background-color: rgba(255, 255, 255, 0.699);
+  box-shadow: inset 5px 5px 10px 0px black;
+}
+
+/*gggggggggggggggggggggggggggggggggggggggggggggggggggg*/
+/*gggggggggggggggggggggggggggggggggggggggggggggggggggg*/
+/*gggggggggggggggggggggggggggggggggggggggggggggggggggg*/
+/*gggggggggggggggggggggggggggggggggggggggggggggggggggg*/
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .indiceul {
