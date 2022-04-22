@@ -18,18 +18,17 @@
 }
 
 
-.fundofixo1 {
-  width: 500px;
+div.fundofixo1 {
+
   height: 500px;
   background: violet;
-  background-attachment: fixed;
 
-  background-image: url('/IMG/10A2.png');
-  background-size: 500px 500px;
+  background-image: url('./IMG/00-1000px.jpg');
+  background-position: left;
 
 }
 
-.fundofixo1>h1 {
+div.fundofixo1>h1 {
   color: brown;
   font-family: var(--font5);
   font-size: 40px;
