@@ -17,18 +17,6 @@
   --font5: 'Rubik Wet Paint', cursive;
 }
 
-/*
-div.fundofixo0 {
-  height: 500px;
-  background: violet;
-  background-image: url('./IMG/1000px.png');
-  background-attachment: fixed;
-  background-position: left;
-}
-*/
-
-
-
 
 
 div.fundofixo0 {
@@ -120,7 +108,7 @@ h4 {
 }
 
 /*Imagem do microfone*/
-section.cifrasecordas {
+div.cifrasecordas {
   background-color: rgb(127, 68, 34);
   background-image: url('/IMG/00-1000px.jpg');
   background-repeat: no-repeat;
