@@ -33,10 +33,10 @@ div.fundofixo0 {
 
 div.fundofixo0 {
   height: 150px;
-  background-color: rgb(236, 5, 5);
-  background-image: url('/IMG/01.png');
+  background-color: rgb(58, 52, 52);
+  background-image: url('./IMG/1000px.png');
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: left center;
   background-size: cover;
 
 }
