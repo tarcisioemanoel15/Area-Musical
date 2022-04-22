@@ -17,17 +17,23 @@
   --font5: 'Rubik Wet Paint', cursive;
 }
 
-
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  background: rgb(251, 250, 252);
+  font-family: var(--font1), var(--font0);
+}
 
 div.fundofixo0 {
   height: 150px;
-  background-color: rgb(58, 52, 52);
+  background-color: black;
   background-image: url('./IMG/1000px.png');
   background-repeat: no-repeat;
   background-position: left center;
   background-size: cover;
-
 }
+
 
 div.fundofixo0>h1 {
   padding: 5%;
@@ -35,29 +41,6 @@ div.fundofixo0>h1 {
   color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-body {
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
-  background: rgb(251, 250, 252);
-}
 
 li {
   list-style: none;
@@ -72,28 +55,16 @@ h4 {
   font-family: var(--fonte1);
   font-size: 30px;
   padding: 10px;
+  font-family: var(--font4);
 }
-
-
-
-
-
-/**gggggggggggggggggggggggggggggggggggggggggggggggg*/
-/*gggggggggggggggggggggggggggggggggggggggggggggggggggg*/
-/*gggggggggggggggggggggggggggggggggggggggggggggggggggg*/
-/*gggggggggggggggggggggggggggggggggggggggggggggggggggg*/
-/*gggggggggggggggggggggggggggggggggggggggggggggggggggg*/
-
-
-
-
 
 
 .indiceul li {
-  font-family: var(--fonte2);
+  font-family: var(--font2);
 }
 
 .indiceul li>a {
+  font-family: var(--font5);
   color: rgb(3, 41, 41);
 }
 
@@ -104,7 +75,7 @@ h4 {
 
 
 .cromatica {
-  font-family: var(--fonte4);
+  font-family: var(--font1);
 }
 
 /*Imagem do microfone*/
@@ -116,11 +87,11 @@ h4 {
   background-size: cover;
   background-attachment: fixed;
 
-  font-family: var(--fonte2);
+  font-family: var(--font4);
 }
 
 .campoHarmonico {
-  font-family: var(--fonte2);
+  font-family: var(--font1);
 }
 
 /*Imagem da guitarra*/
